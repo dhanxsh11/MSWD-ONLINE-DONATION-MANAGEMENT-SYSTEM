@@ -1,0 +1,95 @@
+/* Overall theme */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f0f2f5; 
+}
+
+/* Header */
+.App-header {
+  background-color: #343a40; /* Dark blue header */
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* White text */
+  font-size: 24px;
+  padding: 0 20px; /* Add some padding */
+}
+
+/* Logo */
+.App-logo {
+  height: 8vmin; /* Adjust logo size */
+  animation: App-logo-spin 2s linear infinite; /* Animation for logo */
+}
+
+
+
+/* Login container */
+.login-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(90vh - 10vh); /* Account for header height */
+}
+
+.login-child {
+  background-color: #fff; /* White background for login box (optional, adjust if needed) */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Increase corner roundness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+  padding: 40px; /* Increase padding */
+  min-width: 350px; /* Adjust minimum width */
+  min-height: 250px; /* Adjust minimum height */
+  
+  /* Optional gradient background for a more modern look */
+  background-image: linear-gradient(to right, #eee, #f5f5f5);
+}
+
+/* Login form elements */
+.login-child input[type="text"],
+.login-child input[type="password"] {
+  width: 100%; /* Make input fields fill the width */
+  padding: 10px; /* Adjust input padding */
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  margin-bottom: 15px; /* Add spacing between inputs */
+  font-size: 16px; /* Adjust font size for inputs */
+}
+
+.login-child button {
+  background-color: #343a40; /* Dark blue for button */
+  color: #fff; /* White text for button */
+  padding: 10px 20px; /* Adjust button padding */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Indicate clickable action */
+  font-size: 16px; /* Adjust font size for button */
+  transition: background-color 0.2s ease-in-out; /* Add button hover effect */
+}
+
+.login-child button:hover {
+  background-color: #29323a; /* Darken button color on hover */
+}
+
+
+/* Login form elements can be styled further using specific class names */
+
+/* Body content (if applicable) */
+.App-body {
+  background-color: #fff; /* White background for content area */
+  padding: 10px;
+  font-size: 18px; /* Adjust font size */
+  color: #333; /* Dark gray text */
+  
+}
+
+/* Link color */
+.App-link {
+  color: #007bff; /* Blue link color */
+}
+
+/* White text class (can be used for specific elements) */
+.white-text {
+  color: #141313;
+}
